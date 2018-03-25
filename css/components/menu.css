@@ -1,0 +1,88 @@
+.nav__list {
+    margin-top: 43px;
+}
+
+.nav__item {
+    margin-bottom: 31px;
+}
+
+.nav__link {
+    text-decoration: none;
+}
+
+.nav__img {
+    width: 19px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+
+.nav__link-text {
+    display: inline-block;
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: #221f1f;  
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.nav__img {
+   background: 50% 50% no-repeat;
+}
+
+.nav__img-main {
+    background-image: url("/images/icons/main-hover.png");
+}
+
+.nav__img-service {
+    background-image: url("/images/icons/service-hover.png");
+}
+
+.nav__img-reviews {
+    background-image: url("/images/icons/reviews-hover.png");
+    width: 21px;
+    height: 19px;
+    margin-right: 11px;
+}
+
+.nav__link-text {
+    color: #f89513;
+}
+
+.nav__item:hover .nav__link-text {
+    color: #221f1f;
+}
+
+.nav__item:hover .nav__img-main {
+    background: url("/images/icons/main.png");
+}
+
+.nav__item:hover .nav__img-service {
+    background: url("/images/icons/service.png");
+}
+
+.nav__item:hover .nav__img-reviews {
+    background: url("/images/icons/reviews.png");
+}
+
+.nav__link_active .nav__link-text {
+    color: #221f1f;
+}
+
+.nav__link_active .nav__img-main  {
+    background: url("/images/icons/main.png");
+}
+
+.nav__link_active .nav__img-service  {
+    background: url("/images/icons/service.png");
+}
+
+.nav__link_active .nav__img-reviews  {
+    background: url("/images/icons/reviews.png");
+}

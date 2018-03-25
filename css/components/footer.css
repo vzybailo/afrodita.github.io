@@ -1,0 +1,93 @@
+.footer {
+    height: 76px;
+    min-width: 1100px;
+    margin-top: -76px;
+    background-color: #131415;
+}
+
+.footer .container {
+    height: 77px;
+  }
+
+ .footer__col {
+     float: left;
+     width: 33.3%;
+ } 
+  
+.footer__about {
+    width: 239px;
+    height: 50px;
+    font-family: OpenSans;
+    font-style: light;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.29;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 10px;
+} 
+
+.footer__link {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.footer__logo {
+    color: #f89513;
+    font-family: GoraFree;
+    font-size: 18px;
+    line-height: 3;
+    letter-spacing: 1.8px;
+    text-align: left;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer__socials-name {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    text-align: right;
+    margin-top: 16px;
+    margin-bottom: 8px;
+
+}
+
+.socials__list {
+    padding-left: 180px;
+}
+
+.socials__item {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.socials__link {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("/images/icons/socials-sprite.png") 0 0 no-repeat;
+}
+
+.socials__link_fb {
+    background-position-x: -100px;
+  }
+  
+  .socials__link_gp {
+    background-position-x: -200px;
+  }
+  
+  .socials__link_tw {
+    background-position-x: -300px;
+  }
+  
+  .socials__link_mail {
+    background-position-x: -400px;
+  }
+  
+  .socials__link:hover {
+    background-position-y: bottom;
+  }

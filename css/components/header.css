@@ -1,0 +1,111 @@
+.header {
+    width: 100%;
+    height: 77px;
+    background-color:  #131415;
+}
+
+.header__logo {
+    float: left;
+    margin-top: 13px;
+    margin-left: 0;    
+}
+
+.header__logo-text {
+    color: #f89513;
+    font-family: GoraFree;
+    font-size: 18px;
+    line-height: 3;
+    letter-spacing: 1.8px;
+    text-align: left;
+    text-decoration: none;
+    padding-top: 31px;
+}
+
+.header__contacts {
+    float: right;
+}
+
+.header__contacts-phone {
+  font-family: OpenSans;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 18px;
+}
+
+.header__contacts-shedule {
+    padding-left: 55px;
+    padding-top: 3px;
+}
+
+.header__link {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left; 
+    color: rgba(248, 149, 19, 0.7);
+}
+
+.header__pop-up {
+    display: none;
+    position: absolute;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+    background: #fff;
+    border-radius: 5px 0 5px 5px;
+    text-align: left;
+    right: 0;
+    z-index: 1000;
+    margin-top: 13px;
+    margin-right: 144px;
+    width: 162px;
+}
+
+.header__pop-up:before {
+    content: "";
+    display: block;
+    border: 11px solid transparent;
+    border-top-width: 0;
+    border-bottom-color: #fff;
+    position: absolute;
+    top: -11px;
+    right: 0;
+  }
+  
+  .header__pop-up:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 25px;
+    left: 0;
+    right: 0;
+    top: -25px;
+  }
+
+
+.header__link:hover .header__pop-up {
+    display: block;
+}
+
+
+.header__pop-up-work{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb( 248, 149, 19 );
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+.header__pop-up-output{
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: #130F0A;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+
+  

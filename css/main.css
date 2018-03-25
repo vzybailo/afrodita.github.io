@@ -1,0 +1,18 @@
+/* layout */
+@import url("/css/layout/base.css");
+@import url("/css/layout/normalize.css");
+@import url("/css/layout/fonts.css");
+
+
+/* components */
+@import url("/css/components/header.css");
+@import url("/css/components/menu.css");
+@import url("/css/components/footer.css");
+@import url("/css/components/form.css");
+
+
+/* pages */
+@import url("/css/pages/intro.css");
+@import url("/css/pages/mainpage.css");
+@import url("/css/pages/service.css");
+@import url("/css/pages/reviews.css");
